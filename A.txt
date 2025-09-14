@@ -1,0 +1,13 @@
+class Singleton{
+	private static final Singleton instance=null;
+	
+	private Singleton{}
+
+	public static getSingleton(){
+		if(instance==null){
+			instance=new Singleton();
+		}
+		return instance;
+	}
+
+	}
