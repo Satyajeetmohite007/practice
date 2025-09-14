@@ -1,7 +1,9 @@
 class Singleton{
 	private static final Singleton instance=null;
 	
-	private Singleton{}
+	private Singleton{
+
+	}
 
 	public static Singleton getSingleton(){
 		if(instance==null){
